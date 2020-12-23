@@ -1,0 +1,121 @@
+#nav{
+    width: 100%;
+    height: 75px;
+    background: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+.inner{
+    color:white;
+}
+  
+.label{
+    margin-left:24px ;
+    font-size: 26px;
+    height: 75px;
+    width: 180px;
+    text-align: left;
+    position: absolute;
+    font-weight:bold;
+    line-height: 75px;
+}
+  
+body{
+    margin: 0;
+    padding: 0;
+}
+  
+
+
+  
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 75px;
+    font-size: 38px;
+    font-weight: bold;
+}
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 18px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+    
+.dropdown-content a:hover {background-color: #f1f1f1;}
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+.dropdown:hover .dropbtn {
+    background-color: rgb(36, 33, 33);
+}
+  
+.blck{
+    width: 925px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top:5px;
+    
+}
+.blck .tm_user{
+    font-size: 21px;
+    height: 25px;
+    width: inherit;
+    border-bottom: 1px solid #f9f9d9;
+    border-radius: 6px 6px 0px 0px;
+    background: #f8f8d9;
+}
+  
+.blck .user{
+    float:left;
+    width: 50%;
+}
+  
+.blck .time{
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+  
+.blck .mes{
+    float: inline-end;
+}
+  
+  
+#tm{
+    float: right;
+}
+
+#cr{
+    text-decoration: none;
+    color:white;
+}
+
+#cr:visited{
+    color:white;
+}
